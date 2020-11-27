@@ -1,0 +1,28 @@
+{
+	"ContactSample1": {
+		"FormNiceName": "Contact Us",
+		"Fields": ["Name", "Email", "Department", "Subject", "Message"],
+		"ConditionalEmail": "False",
+		"ConditionalField": "Department",
+		"Conditions": {
+			"": ""
+		},
+		"EmailTo": "info@example.com",
+		"EmailFrom": "info@example.com",
+		"EmailSubject": "New Submission - Contact from Example.com!"
+	},
+	"ContactSample2": {
+		"FormNiceName": "Contact Us",
+		"Fields": ["Name", "Email", "Department", "Subject", "Message"],
+		"ConditionalEmail": "True",
+		"ConditionalField": "Department",
+		"Conditions": {
+			"Sales": "sales@example.com",
+			"Office": "office@example.com",
+			"Tech Support": "techsupport@example.com"
+		},
+		"EmailTo": "",
+		"EmailFrom": "info@example.com",
+		"EmailSubject": "New Submission - Contact from Example.com!"
+	}
+}

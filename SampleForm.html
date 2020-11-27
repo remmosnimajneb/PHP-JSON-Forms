@@ -1,0 +1,14 @@
+<form action="Forms/SubmitForm.php" method="POST">
+    <input type="hidden" name="FormName" value="ContactUs">
+    <input type="text" name="Name" placeholder="Your Name" required="required"><br>
+    <input type="text" name="Email" placeholder=" Your Email" required="required"><br>
+    <select class="select" name="Department" required="required">
+        <option value="0" selected="selected" disabled="disabled">I want to speak to...</option>
+        <option value="Sales">Sales</option>
+        <option value="Office">Office</option>
+        <option value="Tech Support">Tech Support</option>
+    </select><br>
+    <input type="text" placeholder="Subject" name="Subject" required="required"><br>
+    <textarea placeholder="Message" required="required" name="Message"></textarea><br>
+    <button  type="submit" class="site-btn">Send</button>
+</form>
