@@ -15,10 +15,10 @@
 		DEFINE( 'DB_HOST', '' );							// HostName
 		DEFINE( 'DB_NAME', '' );							// Database Name
 		DEFINE( 'DB_USER', '' );							// Database Username
-		DEFINE( 'DB_PASSWORD', '' );						// Database Password
-		DEFINE( 'FORMS_CONFIG_LOC', 'Forms.json');			// Forms Config (If unsure, leave as is)
-		DEFINE( 'INSERT_FORM_TO_DB' TRUE);					// Should this backup submissions to DB?
-		DEFINE( 'SHOULD_SEND_EMAILED_SUBMISSIONS', TRUE);	// Enable disable sending ALL emails
+		DEFINE( 'DB_PASSWORD', '' );							// Database Password
+		DEFINE( 'FORMS_CONFIG_LOC', 'Forms.json');					// Forms Config (If unsure, leave as is)
+		DEFINE( 'INSERT_FORM_TO_DB' TRUE);						// Should this backup submissions to DB?
+		DEFINE( 'SHOULD_SEND_EMAILED_SUBMISSIONS', TRUE);				// Enable disable sending ALL emails
 
     /* That's it, stop editing! */
 
